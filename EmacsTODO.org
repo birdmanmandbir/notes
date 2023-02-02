@@ -1,0 +1,69 @@
+* TODO EmacsTodo [0/5]
+** TODO To Roughly Learn [83%]
+- [ ] docker and kubernetes layer
+- [X] elisp
+- [X] more org-mode
+- [X] terminal/shell layer
+- [X] git
+- [X] fast way to find keymaps for a specific mode, like org mode: ~M-x~
+** TODO GUI version problems [2/3]
+- [X] fontconfig: emoji, chinese, bottomline
+- [ ] chinese input method, remi
+- [X] eaf layer?
+  - [X] netease-music, need download-api? -> cannot run
+** TODO magit [33%]
+- [X] how to check status
+- [ ] commit
+- [ ] push
+** TODO Shell-layer [50%]
+- [ ] multi-term?
+- [X] vterm-c
+** TODO Lsp-mode [0%]
+- [ ] vue
+- [ ] tsx/react
+** TODO Org mod todos [0/3]
+- [ ] <C-ENT> not work in command-line version?
+- [ ] toggle display mode
+- [ ] org-presentation
+*** Org mode elements
+| element        | example     |
+|----------------+-------------|
+| keys           | ~SPC s g~   |
+| highlight text | =highlight= |
+|                |             |
+*** Feel about org-mode
+1. nice for list and list content text
+2. fast move different part faster than Mubu
+3. fold or unfold fast
+4. more beautiful
+5. search title with <leader>ji
+6. fast input table
+7. table can do calculation??
+8. how to input code??
+9. T shortcut not work??
+10. how to make list to title, more shortcut tutorials
+*** Keybindings
+| function          | key     |
+|-------------------+---------|
+| create new header | ~C-Ent~ |
+| fold or unfold    | ~tab~   |
+
+~C-Ent~ create
+** Grep
+~SPC s g~
+** Font
+~fc-cache -fv~ update font cache
+~fc-list~ check all installed fonts
+** Related links
+[[https://www.youtube.com/watch?v=S4f-GUxu3CY][(25) Org mode and Spacemacs: The Absolute Minimum you need to know - YouTube]]
+** TODO Chinese support [1/2]
+- [X] I wrote chinese in command mode, and open org in gui, then it not work in command mode
+- [ ] rime, clover, input method
+*** 测试中文输入
+使用终端版 emacs ~emacs -nw~ 即可使用 windows 自带中文输入法, 不需再配置 rime, fcitx 等等
+*** Table
+| col 1 | col 2 | col 3                    |
+|-------+-------+--------------------------|
+| nice  | table | can be change with ~tab~ |
+| also  | can   | have 中文                |
+
