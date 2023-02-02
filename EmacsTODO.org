@@ -24,6 +24,7 @@
 *** TODO golang
 with lsp-mode + gopls
 Error processing message (error "Lisp nesting exceeds ‘max-lisp-eval-depth’").
+Error running timer: (wrong-type-argument stringp nil)
 ** TODO Org mod todos [0/3]
 - [ ] <C-ENT> not work in command-line version?
 - [ ] toggle display mode
