@@ -1,0 +1,2 @@
+* My note
+after start using spacemacs
