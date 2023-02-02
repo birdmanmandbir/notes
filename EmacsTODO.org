@@ -21,10 +21,11 @@
 ** TODO Lsp-mode [0%]
 - [ ] vue
 - [ ] tsx/react
-*** TODO golang
+*** TODO golang [0%]
 with lsp-mode + gopls
-Error processing message (error "Lisp nesting exceeds ‘max-lisp-eval-depth’").
-Error running timer: (wrong-type-argument stringp nil)
+- [-] Error processing message (error "Lisp nesting exceeds ‘max-lisp-eval-depth’").
+  - [ ] 知道原因了, 可以考虑用 ls -lR|grep "^-"|wc -l 修复, 用 elisp 调 shell, 但不确定是不是每个发行版都有 wc? 先提个 issue
+  - [X] 暂时用(setq lsp-enable-file-watchers nil)规避
 ** TODO Org mod todos [0/3]
 - [ ] <C-ENT> not work in command-line version?
 - [ ] toggle display mode
