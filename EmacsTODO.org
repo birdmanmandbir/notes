@@ -21,6 +21,9 @@
 ** TODO Lsp-mode [0%]
 - [ ] vue
 - [ ] tsx/react
+*** TODO golang
+with lsp-mode + gopls
+Error processing message (error "Lisp nesting exceeds ‘max-lisp-eval-depth’").
 ** TODO Org mod todos [0/3]
 - [ ] <C-ENT> not work in command-line version?
 - [ ] toggle display mode
