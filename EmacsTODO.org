@@ -1,6 +1,8 @@
-* TODO EmacsTodo [0/5]
-** TODO To Roughly Learn [83%]
+* TODO EmacsTodo [0/7]
+** TODO To Roughly Learn [62%]
 - [ ] docker and kubernetes layer
+- [ ] more line number width
+- [ ] search content in org & multiple orgs
 - [X] elisp
 - [X] more org-mode
 - [X] terminal/shell layer
@@ -26,10 +28,16 @@ with lsp-mode + gopls
 - [-] Error processing message (error "Lisp nesting exceeds ‘max-lisp-eval-depth’").
   - [ ] 知道原因了, 可以考虑用 ls -lR|grep "^-"|wc -l 修复, 用 elisp 调 shell, 但不确定是不是每个发行版都有 wc? 先提个 issue
   - [X] 暂时用(setq lsp-enable-file-watchers nil)规避
-** TODO Org mod todos [0/3]
+** TODO Org mod todos [3/9]
 - [ ] <C-ENT> not work in command-line version?
+- [ ] org-agenda?
+- [ ] org-capture?
+- [ ] download
 - [ ] toggle display mode
-- [ ] org-presentation
+- [ ] fast move in insert mode
+- [X] Pomodoro
+- [X] org-presentation
+- [X] toggle-num-mode
 *** Org mode elements
 | element        | example     |
 |----------------+-------------|
