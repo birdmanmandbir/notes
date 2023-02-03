@@ -1,8 +1,18 @@
-* TODO EmacsTodo [0/7]
-** TODO To Roughly Learn [62%]
+* TODO EmacsTodo [0/9]
+** TODO add layers
+- [ ] docker
+- [ ] vue
+- [ ] ivy
+- [ ] javascript
+** TODO To Roughly Learn [38%]
 - [ ] docker and kubernetes layer
+- [ ] what is transient-state?
 - [ ] more line number width
 - [ ] search content in org & multiple orgs
+- [ ] multiple clipboard register?
+- [ ] how to clipboard for wsl
+- [ ] layout?
+- [ ] helm grep projectile -> ignore uuid files (kubernetes project)
 - [X] elisp
 - [X] more org-mode
 - [X] terminal/shell layer
@@ -81,3 +91,6 @@ with lsp-mode + gopls
 | also  | can   | have 中文                |
 | 全部  | 都是  | 中文                     |
 
+** TODO Treemacs
+*** keymaps
+~M-0~ toggle treemacs
