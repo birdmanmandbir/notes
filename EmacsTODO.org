@@ -1,11 +1,11 @@
 * TODO EmacsTodo [0/9]
 ** TODO add layers
 - [ ] docker
-- [ ] vue
+- [ ] kubernetes
+- [X] vue
 - [ ] ivy
 - [ ] javascript
-** TODO To Roughly Learn [38%]
-- [ ] docker and kubernetes layer
+** TODO Roughly Learn [35%]
 - [ ] what is transient-state?
 - [ ] more line number width
 - [ ] search content in org & multiple orgs
@@ -13,6 +13,7 @@
 - [ ] how to clipboard for wsl
 - [ ] layout?
 - [ ] helm grep projectile -> ignore uuid files (kubernetes project)
+- [ ] vim-c edge/chrome browser
 - [X] elisp
 - [X] more org-mode
 - [X] terminal/shell layer
