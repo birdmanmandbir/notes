@@ -71,4 +71,5 @@ with lsp-mode + gopls
 |-------+-------+--------------------------|
 | nice  | table | can be change with ~tab~ |
 | also  | can   | have 中文                |
+| 全部  | 都是  | 中文                     |
 
