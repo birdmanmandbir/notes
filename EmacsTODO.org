@@ -1,15 +1,15 @@
-* TODO EmacsTodo [0/9]
+* TODO EmacsTodo [1/10]
 ** TODO add layers
 - [ ] docker
 - [ ] kubernetes
 - [X] vue
-- [ ] ivy
+- [X] ivy
 - [ ] javascript
 ** TODO Roughly Learn [35%]
 - [ ] what is transient-state?
 - [ ] more line number width
-- [ ] search content in org & multiple orgs
-- [ ] multiple clipboard register?
+- [ ] search content in multiple orgs/(org project?)
+- [ ] multiple clipboard register? swiper or counsel
 - [ ] how to clipboard for wsl
 - [ ] layout?
 - [ ] helm grep projectile -> ignore uuid files (kubernetes project)
@@ -19,15 +19,16 @@
 - [X] terminal/shell layer
 - [X] git
 - [X] fast way to find keymaps for a specific mode, like org mode: ~M-x~
-** TODO GUI version problems [2/3]
+** TODO GUI emacs problems [2/3]
 - [X] fontconfig: emoji, chinese, bottomline
 - [ ] chinese input method, remi
 - [X] eaf layer?
   - [X] netease-music, need download-api? -> cannot run
-** TODO magit [33%]
+** DONE magit [100%]
+CLOSED: [2023-02-05 Sun 01:19]
 - [X] how to check status
-- [ ] commit
-- [ ] push
+- [X] commit
+- [X] push
 ** TODO Shell-layer [50%]
 - [ ] multi-term?
 - [X] vterm-c
@@ -39,6 +40,7 @@ with lsp-mode + gopls
 - [-] Error processing message (error "Lisp nesting exceeds ‘max-lisp-eval-depth’").
   - [ ] 知道原因了, 可以考虑用 ls -lR|grep "^-"|wc -l 修复, 用 elisp 调 shell, 但不确定是不是每个发行版都有 wc? 先提个 issue
   - [X] 暂时用(setq lsp-enable-file-watchers nil)规避
+  - [ ] treemacs 也有 file watch, 可以看看代码是否是类似的实现, 是否有不同思路
 ** TODO Org mod todos [3/9]
 - [ ] <C-ENT> not work in command-line version?
 - [ ] org-agenda?
@@ -67,10 +69,12 @@ with lsp-mode + gopls
 9. T shortcut not work??
 10. how to make list to title, more shortcut tutorials
 *** Keybindings
-| function          | key     |
-|-------------------+---------|
-| create new header | ~C-Ent~ |
-| fold or unfold    | ~tab~   |
+| function              | key     |
+|-----------------------+---------|
+| new header            | ~C-Ent~ |
+| fold or unfold        | ~tab~   |
+| new todo header       | ~T~     |
+| new child todo header | ~M-t~   |
 
 ~C-Ent~ create
 ** Grep
@@ -95,3 +99,10 @@ with lsp-mode + gopls
 ** TODO Treemacs
 *** keymaps
 ~M-0~ toggle treemacs
+
+** Common Keymaps
+| function            | key   | note                          |
+|---------------------+-------+-------------------------------|
+| exit bottom panel   | ~C-g~ |                               |
+| search in this file | ~C-s~ | by =swiper=, include org-mode |
+|                     |       |                               |
