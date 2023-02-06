@@ -9,6 +9,8 @@
 - [ ] 快捷键缩进?
 - [ ] vim 模式搜索替换?
 
+- [ ] 文件浏览器和搜索都有搜索框, 怎么只使用键盘实现失焦
+
 ## keybindings
 
 1. h, l in file explorer, very nice
