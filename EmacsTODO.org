@@ -35,6 +35,8 @@ CLOSED: [2023-02-05 Sun 01:19]
 ** TODO Lsp-mode [0%]
 - [ ] vue
 - [ ] tsx/react
+- [ ] rainbow bracket
+- [ ] ts: autofix, autoimport?
 *** TODO golang [0%]
 with lsp-mode + gopls
 - [-] Error processing message (error "Lisp nesting exceeds ‘max-lisp-eval-depth’").
