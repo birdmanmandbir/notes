@@ -1,6 +1,0 @@
-** 缺点
-- [ ] org mode收缩折叠?
-- [ ] org mode 换行补全
-- [ ] magit log 文件修改内容折叠
-- [ ] treemacs 文件操作,文件tab展开可以看到内部结构
-- [ ] 单buffer精确匹配搜索?
